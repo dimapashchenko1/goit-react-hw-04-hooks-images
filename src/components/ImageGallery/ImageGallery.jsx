@@ -3,7 +3,7 @@ import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from "react-loader-spinner";
 import ImageGalleryItem from "../ImageGalleryItem/ImageGalleryItem";
 import css from "./ImageGallery.module.css";
-import Api from "../API/imageApi";
+import Api from "../../services/imageApi";
 import Button from "../Button/Button";
 import Modal from "../Modal/Modal";
 
